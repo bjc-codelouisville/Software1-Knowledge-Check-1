@@ -53,7 +53,7 @@ namespace KnowledgeCheck1_Calculator
 
                 case "3":
                     // Add code here
-                    Console.WriteLine("Enter 2 integers to add"); //original line
+                    Console.WriteLine("Enter 2 integers to multiply"); //original line
                     var (multiplyNumber1, multiplyNumber2) = ValidateIntegers(); //run our new method
                     var (mulNumOne, mulNumTwo) = (multiplyNumber1, multiplyNumber2); // extra line so we don't have to modify original variables
 
